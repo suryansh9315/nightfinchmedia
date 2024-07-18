@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@darkroom.engineering/hamo": "^0.6.42",
+    "framer-motion": "^11.3.6",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.6",
+    "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
