@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        suiss: ['var(--font-suiss)'],
+        poppins: ['var(--font-poppins)'],
+        bella: ['var(--font-bella)'],
+        corir: ['var(--font-corir)'],
+        oswald: ['var(--font-oswald)'],
+        quick: ['var(--font-quick)'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

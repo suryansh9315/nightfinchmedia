@@ -1,4 +1,6 @@
 import Cursor from '@/components/Cursor'
+import HomeProjects from '@/components/HomeProjects'
+import HomeServices from '@/components/HomeServices'
 import ImageGallery from '@/components/ImageGallery'
 import TextReveal from '@/components/TextReveal'
 import ZoomParalax from '@/components/ZoomParalax'
@@ -11,7 +13,7 @@ const Home = () => {
       <ZoomParalax />
       <TextReveal />
       <ImageGallery />
-      <div className='h-screen'></div>
+      <HomeProjects />
     </div>
   )
 }

@@ -43,7 +43,7 @@ const Column = ({ images, y = 0, top }) => {
         <motion.div style={{ y }} className={`w-1/4 h-full flex flex-col min-w-[250px] gap-[2vw] relative ${top}`}>
             {images.map((image, index) => (
                 <div key={index} className='w-full h-full overflow-hidden rounded-[1vw] relative'>
-                    <Image src={`/${image}`} fill alt='image' className='object-cover' />
+                    <Image src={`/images/${image}`} fill alt='image' className='object-cover' />
                 </div>
             ))}
         </motion.div>
