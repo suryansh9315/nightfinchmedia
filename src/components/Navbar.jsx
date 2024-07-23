@@ -63,13 +63,13 @@ const Navbar = () => {
     <>
       <div className="bg-transparent absolute top-0 w-screen z-10 px-8 py-5 flex items-center justify-between">
         <div className="">
-          <Image
+          {/* <Image
             src={"/logo_white.png"}
             width={200}
             height={200}
             className=""
             alt="Image"
-          />
+          /> */}
         </div>
         <div className="z-10 relative">
           <motion.div
